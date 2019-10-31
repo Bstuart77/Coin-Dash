@@ -527,7 +527,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 740395895}
-  - component: {fileID: 740395894}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -535,22 +534,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &740395894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 740395893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21f857ded5d7d954c9d029869967866d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theEnemy: {fileID: 1585024933}
-  xPos: 0
-  zPos: 0
-  coinCount: 0
 --- !u!4 &740395895
 Transform:
   m_ObjectHideFlags: 0

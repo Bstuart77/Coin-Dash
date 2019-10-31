@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallCollison : MonoBehaviour
+public class CollectRed : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,13 @@ public class WallCollison : MonoBehaviour
     void Update()
     {
         
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Player")
+        {
+            other.GetComponent<Movement>().points+=3;
+            Destroy(gameObject);
+        }
     }
 }
