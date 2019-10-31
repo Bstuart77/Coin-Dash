@@ -1333,6 +1333,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1195638037854979535}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1585024934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585024933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f211b127ea9874a91d80804976019c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1585024938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,6 +1370,7 @@ GameObject:
   - component: {fileID: 1682611120}
   - component: {fileID: 1682611119}
   - component: {fileID: 1682611118}
+  - component: {fileID: 1682611123}
   m_Layer: 0
   m_Name: RedCoin
   m_TagString: Untagged
@@ -1450,6 +1463,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!114 &1682611123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682611117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dfb27ef5dddcf49b6a817a6c5ea828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1702434522
 GameObject:
   m_ObjectHideFlags: 0

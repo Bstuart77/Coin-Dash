@@ -11,13 +11,5 @@ public class coinRotation : MonoBehaviour
     {
         transform.Rotate(90f * Time.deltaTime, 0, 0);
     }
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.name == "Player")
-        {
-            other.GetComponent<Movement>().points++;
-            Destroy(gameObject);
-        }
-
-    }
+ 
 }

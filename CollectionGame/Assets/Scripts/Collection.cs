@@ -4,22 +4,12 @@ using UnityEngine;
 
 public class Collection : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
         {
-            other.GetComponent<Movement>().points ++;
+            other.GetComponent<Movement>().points++;
+            KeepScore.Score += 1;
             Destroy(gameObject);
         }
     }

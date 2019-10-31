@@ -14,4 +14,5 @@ public class CollectRed : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }
