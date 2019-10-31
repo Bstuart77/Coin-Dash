@@ -23,8 +23,4 @@ public class Movement : MonoBehaviour
 
 
     }
-    private void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 100, 200), "Score " + points);
-    }
 }
