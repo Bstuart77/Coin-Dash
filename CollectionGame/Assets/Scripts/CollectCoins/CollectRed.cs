@@ -10,7 +10,6 @@ public class CollectRed : MonoBehaviour
         {
             other.GetComponent<Movement>().points++;
             KeepScore.Score += 3;
-            Debug.Log("test");
             Destroy(gameObject);
         }
     }
