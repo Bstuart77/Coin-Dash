@@ -20,7 +20,7 @@ public class SpawnCoins : MonoBehaviour
 
     IEnumerator CoinSpawn()
     {
-        while (coinCount < 10)
+        while (Timer.timeLeft > 0)
         {
             xPos = Random.Range(-20, 20);
             zPos = Random.Range(-20, 20);

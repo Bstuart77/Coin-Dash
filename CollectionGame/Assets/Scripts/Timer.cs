@@ -5,8 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
-    public static float timeLeft = 5.0f;
-    public Text startText; 
+    public static float timeLeft = 60.0f;
+    public Text startText;
 
 
     void Update()
@@ -15,8 +15,11 @@ public class Timer : MonoBehaviour
         startText.text = (timeLeft).ToString("0");
         if (timeLeft < 0.0)
         {
+            Destroy(gameObject);
             //fix to make it transfer to another screen/leaderboard
-            SceneManager.LoadScene("LeaderBoardScene");
+            /* SceneManager.LoadScene("LeaderBoardScene");
+           **/
         }
-       }
+    }
 }
+

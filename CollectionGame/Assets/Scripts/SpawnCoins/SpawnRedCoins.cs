@@ -11,22 +11,21 @@ public class SpawnRedCoins : MonoBehaviour
     public int coinCount = 0;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(RedCoinSpawn());
     }
-
+   
     IEnumerator RedCoinSpawn()
     {
-        while (coinCount < 5)
+        while (Timer.timeLeft > 0)
         {
             xPos = Random.Range(-20, 20);
             zPos = Random.Range(-20, 20);
             Instantiate(theEnemy, new Vector3(xPos, 1.61f, zPos), Quaternion.identity);
 
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(2f);
             coinCount++;
         }
     }

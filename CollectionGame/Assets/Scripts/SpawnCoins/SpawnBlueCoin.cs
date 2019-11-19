@@ -19,13 +19,13 @@ public class SpawnBlueCoin : MonoBehaviour
 
     IEnumerator BlueSpawnCoin()
     {
-        while (coinCount < 10)
+        while (Timer.timeLeft > 0)
         {
             xPos = Random.Range(-20, 20);
             zPos = Random.Range(-20, 20);
             Instantiate(theEnemy, new Vector3(xPos, 1.61f, zPos), Quaternion.identity);
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(5f);
             coinCount++;
         }
     }
