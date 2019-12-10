@@ -5,16 +5,20 @@ using UnityEngine;
 
 public class KeepScore : MonoBehaviour
 {
-    
+    public Text scoreText;
     public static int Score = 0;
     private GUIStyle font;
     public void Start()
     {
         font = new GUIStyle();
-        font.fontSize = 36;
+        font.fontSize = 1;
+    }
+    private void Update()
+    {
+        scoreText.text = Score.ToString();
     }
     private void OnGUI()
     {
-            GUI.Box(new Rect(200, 200, 200, 200), Score.ToString(),font);
+            GUI.Box(new Rect(200, 200, 200, 200), scoreText.text,font);
     }
 }
