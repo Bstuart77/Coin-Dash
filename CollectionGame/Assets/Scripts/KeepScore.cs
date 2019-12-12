@@ -19,6 +19,5 @@ public class KeepScore : MonoBehaviour
     }
     private void OnGUI()
     {
-            GUI.Box(new Rect(200, 200, 200, 200), scoreText.text,font);
     }
 }
