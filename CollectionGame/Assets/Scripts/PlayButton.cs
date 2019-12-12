@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class ButtonHandler : MonoBehaviour
+public class PlayButton : MonoBehaviour
 {
     public void OnMouseUp()
     {
         SceneManager.LoadScene("Game");
+
     }
 }
