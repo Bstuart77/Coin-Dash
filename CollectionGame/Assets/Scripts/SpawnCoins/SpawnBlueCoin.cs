@@ -7,7 +7,6 @@ public class SpawnBlueCoin : MonoBehaviour
     public GameObject theEnemy;
     public int xPos;
     public int zPos;
-    public int coinCount = 0;
 
 
 
@@ -26,7 +25,6 @@ public class SpawnBlueCoin : MonoBehaviour
             Instantiate(theEnemy, new Vector3(xPos, 1.61f, zPos), Quaternion.identity);
 
             yield return new WaitForSeconds(5f);
-            coinCount++;
         }
     }
 }

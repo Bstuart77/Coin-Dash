@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class SpawnCoins : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     public GameObject theEnemy;
     public int xPos;
     public int zPos;
-    public int coinCount = 0;
 
 
 
@@ -27,7 +26,6 @@ public class SpawnCoins : MonoBehaviour
             Instantiate(theEnemy, new Vector3(xPos, 1.61f, zPos), Quaternion.identity);
 
             yield return new WaitForSeconds(1.5f);
-            coinCount++;
         }
     }
 }
