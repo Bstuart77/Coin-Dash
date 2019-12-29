@@ -668,7 +668,6 @@ MonoBehaviour:
   theEnemy: {fileID: 1585024933}
   xPos: 0
   zPos: 0
-  coinCount: 0
 --- !u!4 &740395895
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,7 +1233,6 @@ MonoBehaviour:
   theEnemy: {fileID: 298512104}
   xPos: 0
   zPos: 0
-  coinCount: 0
 --- !u!1 &1215992556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1620,6 @@ MonoBehaviour:
   theEnemy: {fileID: 888978174}
   xPos: 0
   zPos: 0
-  coinCount: 0
 --- !u!4 &1392872628
 Transform:
   m_ObjectHideFlags: 0
@@ -2180,7 +2177,6 @@ MonoBehaviour:
   theEnemy: {fileID: 1682611117}
   xPos: 0
   zPos: 0
-  coinCount: 0
 --- !u!4 &2036796136
 Transform:
   m_ObjectHideFlags: 0
