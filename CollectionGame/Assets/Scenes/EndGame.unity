@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 249139972}
   - component: {fileID: 249139971}
   - component: {fileID: 249139970}
+  - component: {fileID: 249139973}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -282,6 +283,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &249139973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249139969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0733e5816adbff4988cddf66c42d853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 923104579}
 --- !u!1 &664240926
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -747.3, y: 379}
+  m_AnchoredPosition: {x: -545, y: 379}
   m_SizeDelta: {x: 142.85, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876336922
@@ -496,7 +510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'You Scored '
+  m_Text: 'You Scored:'
 --- !u!222 &876336923
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -608,7 +622,7 @@ GameObject:
   - component: {fileID: 923104580}
   - component: {fileID: 923104579}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: pointScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135.9, y: 379}
+  m_AnchoredPosition: {x: 356, y: 379}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923104579
@@ -666,7 +680,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '"" Points'
+  m_Text: ' ""'
 --- !u!222 &923104580
 CanvasRenderer:
   m_ObjectHideFlags: 0
