@@ -12,13 +12,14 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 60;
         rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime, 0f, Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime);
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal") * (moveSpeed * Time.deltaTime), 0f, Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime);
         rb.MovePosition(transform.position + movement);
 
 
