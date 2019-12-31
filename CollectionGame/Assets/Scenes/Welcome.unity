@@ -886,7 +886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'This is my first game I built with unity! In this game, you will collect
+  m_Text: 'This is my first game I built with Unity! In this game, you will collect
     coins and try
 
     to get the highest score possible. Move with WASD and compete with your yourself
