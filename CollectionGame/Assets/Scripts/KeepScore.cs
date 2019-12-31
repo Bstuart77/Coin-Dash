@@ -17,7 +17,4 @@ public class KeepScore : MonoBehaviour
     {
         scoreText.text = Score.ToString();
     }
-    private void OnGUI()
-    {
-    }
 }
