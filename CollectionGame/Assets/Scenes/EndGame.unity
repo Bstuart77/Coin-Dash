@@ -383,7 +383,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 137
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 876336923}
   - component: {fileID: 876336922}
   m_Layer: 5
-  m_Name: Text
+  m_Name: You Scored
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,7 +620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -545, y: 379}
+  m_AnchoredPosition: {x: -487.4, y: 379}
   m_SizeDelta: {x: 142.85, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876336922
@@ -790,7 +790,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 356, y: 379}
+  m_AnchoredPosition: {x: 409.72, y: 379}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923104579
@@ -1029,7 +1029,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7b15890d1114664b90b8228e8cc9803, type: 2}
+  - {fileID: 2100000, guid: 9f9d0db2f17932e47929c4d305dd87d6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
