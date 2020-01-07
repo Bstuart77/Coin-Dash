@@ -10,6 +10,7 @@ public class Collection : MonoBehaviour
         {
             other.GetComponent<Movement>().points++;
             KeepScore.Score += 1;
+            Ultimate.ult += 3;
             Destroy(gameObject);
         }
     }

@@ -10,6 +10,7 @@ public class collectGreen : MonoBehaviour
         {
             other.GetComponent<Movement>().points++;
             KeepScore.Score += 5;
+            Ultimate.ult += 8;
             Destroy(gameObject);
         }
     }
