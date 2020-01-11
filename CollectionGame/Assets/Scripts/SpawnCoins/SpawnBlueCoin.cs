@@ -5,12 +5,11 @@ using UnityEngine;
 public class SpawnBlueCoin : MonoBehaviour
 {
     public GameObject theEnemy;
-    public int xPos;
-    public int zPos;
+    private int xPos;
+    private int zPos;
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(BlueSpawnCoin());
