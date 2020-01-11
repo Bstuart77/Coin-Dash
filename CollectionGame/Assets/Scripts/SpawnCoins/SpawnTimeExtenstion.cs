@@ -5,11 +5,10 @@ using UnityEngine;
 public class SpawnTimeExtenstion : MonoBehaviour
 {
     public GameObject theEnemy;
-    public int xPos;
-    public int zPos;
+    private int xPos;
+    private int zPos;
     int count = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
        
