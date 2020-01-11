@@ -4,14 +4,25 @@ using UnityEngine;
 
 public class CollectBlue : MonoBehaviour
 {
+
+    private void Update()
+    {
+        if (gameObject.name == "blueCoin(Clone)")
+        {
+            Destroy(gameObject, 2.75f);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
         {
-            other.GetComponent<Movement>().points++;
             KeepScore.Score += 10;
             Ultimate.ult += 10;
             Destroy(gameObject);
+        }
+        else
+        {
+            Destroy(other.gameObject, 3);
         }
     }
 }
