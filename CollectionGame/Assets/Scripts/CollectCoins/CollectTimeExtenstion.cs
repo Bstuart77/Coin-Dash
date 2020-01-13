@@ -3,8 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CollectTimeExtenstion : MonoBehaviour
-{ 
-    private void OnTriggerEnter(Collider other)
+{
+    private void Update()
+    {
+
+
+        if (gameObject.name == "TimeExtension(Clone)")
+        {
+            Destroy(gameObject, 3f);
+        }
+    }
+private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
         {
