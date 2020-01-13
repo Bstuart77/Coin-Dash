@@ -9,7 +9,7 @@ public class CollectBlue : MonoBehaviour
     {
         if (gameObject.name == "blueCoin(Clone)")
         {
-            Destroy(gameObject, 2.75f);
+            Destroy(gameObject, 2.5f);
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -17,7 +17,6 @@ public class CollectBlue : MonoBehaviour
         if (other.name == "Player")
         {
             KeepScore.Score += 10;
-            Ultimate.ult += 10;
             Destroy(gameObject);
         }
         else

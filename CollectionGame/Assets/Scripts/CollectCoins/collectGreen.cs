@@ -8,7 +8,7 @@ public class collectGreen : MonoBehaviour
     {
         if (gameObject.name == "greenCoin(Clone)")
         {
-            Destroy(gameObject, 3.5f);
+            Destroy(gameObject, 3f);
         }
     }
     private void OnTriggerEnter(Collider other)
@@ -16,7 +16,6 @@ public class collectGreen : MonoBehaviour
         if (other.name == "Player")
         {
             KeepScore.Score += 5;
-            Ultimate.ult += 8;
             Destroy(gameObject);
         }
     }

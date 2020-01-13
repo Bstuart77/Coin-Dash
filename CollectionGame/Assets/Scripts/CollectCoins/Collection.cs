@@ -8,15 +8,14 @@ public class Collection : MonoBehaviour
     {
         if (gameObject.name == "Coin(Clone)")
         {
-            Destroy(gameObject, 5);
+            Destroy(gameObject, 4f);
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.name == "Player")
         {
-            KeepScore.Score += 1;
-            Ultimate.ult += 3;
+            KeepScore.Score ++;
             Destroy(gameObject);
         }
     }
