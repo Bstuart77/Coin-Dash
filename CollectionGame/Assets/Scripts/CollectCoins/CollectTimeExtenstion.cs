@@ -6,9 +6,7 @@ public class CollectTimeExtenstion : MonoBehaviour
 {
     private void Update()
     {
-
-
-        if (gameObject.name == "TimeExtension(Clone)")
+        if (gameObject.name == "TimeExtenstion(Clone)")
         {
             Destroy(gameObject, 3f);
         }
