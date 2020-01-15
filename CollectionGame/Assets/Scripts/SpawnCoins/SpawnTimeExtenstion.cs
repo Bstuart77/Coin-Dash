@@ -7,7 +7,6 @@ public class SpawnTimeExtenstion : MonoBehaviour
     public GameObject theEnemy;
     private int xPos;
     private int zPos;
-    int count = 0;
 
     void Start()
     {
@@ -18,7 +17,7 @@ public class SpawnTimeExtenstion : MonoBehaviour
     IEnumerator TimeExtenstion()
     {
 
-        while (count < 11)
+        while (Timer.timeLeft >0)
         {
             xPos = Random.Range(-20, 20);
             zPos = Random.Range(-20, 20);
