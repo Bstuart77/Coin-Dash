@@ -19,9 +19,5 @@ public class CollectBlue : MonoBehaviour
             KeepScore.Score += 10;
             Destroy(gameObject);
         }
-        else
-        {
-            Destroy(other.gameObject, 3);
-        }
     }
 }
