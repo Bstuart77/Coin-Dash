@@ -51,8 +51,10 @@ public class PauseMenu : MonoBehaviour
     public void Resart()
     {
         SceneManager.LoadScene("Game");
+        isPaused = false;
         KeepScore.Score = 0;
         Timer.timeLeft = 60f;
         Time.timeScale = 1f;
+
     }
 }
