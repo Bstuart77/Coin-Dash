@@ -290,10 +290,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.9, y: 1.61, z: 0.6}
   m_LocalScale: {x: 3, y: 3, z: 3}
-  m_Children:
-  - {fileID: 1989357046}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &120069738
 MonoBehaviour:
@@ -431,6 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f444cdbf729e85a40950fe7c9e80bd43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: {fileID: 120069740}
+  musicSlider: {fileID: 1890675070}
 --- !u!1 &237653915
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +812,7 @@ RectTransform:
   - {fileID: 1890675069}
   - {fileID: 1173955700}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1425,7 +1426,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &621681605
 GameObject:
@@ -1462,7 +1463,7 @@ Transform:
   - {fileID: 1913034211}
   - {fileID: 938198242}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &629236161
 GameObject:
@@ -1496,7 +1497,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1662,6 +1663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f444cdbf729e85a40950fe7c9e80bd43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: {fileID: 629236162}
+  musicSlider: {fileID: 1890675070}
 --- !u!4 &629236164
 Transform:
   m_ObjectHideFlags: 0
@@ -1674,7 +1677,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &641137942
 GameObject:
@@ -2672,7 +2675,7 @@ RectTransform:
   m_Children:
   - {fileID: 118917236}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4227,21 +4230,10 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 629236163}
-        m_MethodName: SetVolume
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &1898492662
@@ -4568,8 +4560,8 @@ RectTransform:
   m_Children:
   - {fileID: 1215992557}
   - {fileID: 2079748022}
-  m_Father: {fileID: 120069737}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
