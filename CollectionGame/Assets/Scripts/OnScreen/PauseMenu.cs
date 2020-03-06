@@ -22,7 +22,7 @@ public class PauseMenu : MonoBehaviour
             if (isPaused)
             {
                 Resume();
-           
+                audioUI.SetActive(false);
             }
             else 
             {
