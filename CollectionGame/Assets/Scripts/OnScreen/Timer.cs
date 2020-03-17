@@ -8,6 +8,11 @@ public class Timer : MonoBehaviour
     public static float timeLeft = 60.0f;
     public Text startText;
 
+    private void Start()
+    {
+
+        KeepScore.Score = 0;
+    }
 
     void Update()
     {
