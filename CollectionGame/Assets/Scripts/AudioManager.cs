@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
     }
     void Update()
     {
