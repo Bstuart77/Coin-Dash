@@ -5,10 +5,13 @@ using UnityEngine;
 
 public class PlayButton : MonoBehaviour
 {
-    public void OnMouseUp()
+    public void StartGame()
     {
         SceneManager.LoadScene("Game");
-
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 
 }
