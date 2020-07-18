@@ -8,19 +8,25 @@ public class AudioManager : MonoBehaviour
     public AudioSource music;
     public Slider musicSlider;
 
+
     private void Start()
     {
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.5f);
-    }
-    void Update()
-    {
-        music.volume = musicSlider.value;
+        if(PlayerPrefs.GetFloat("volume") == 0f)
+        {
+            music.volume = 0.3f;
+        }
+        music.volume = PlayerPrefs.GetFloat("volume");
+        musicSlider.value = music.volume;
+
     }
 
-    public void volumePrefs()
+
+    public void MasterVolume(float mastVolume)
     {
-        PlayerPrefs.SetFloat("MusicVolume", music.volume);
+        music.volume = mastVolume;
+        PlayerPrefs.SetFloat("volume", music.volume);
+        PlayerPrefs.Save();
     }
 
-    
+
 }
