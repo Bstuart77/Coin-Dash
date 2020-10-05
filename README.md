@@ -1,4 +1,4 @@
-# Coin Dash
+# Coin Dash(Collection Game)
 Players will collect as many points as they can within the given time frame
 
 https://www.dropbox.com/s/s4ynkh79haqqgj5/Run%20Collection.zip?dl=0
