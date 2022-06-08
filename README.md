@@ -1,7 +1,7 @@
 # Coin Dash
 Players will collect as many points as they can within the given time frame
 
-https://www.dropbox.com/sh/zms3nx3qa9glumy/AAB4wFNqMqrgc0cRFTCvT91-a?dl=0
+https://www.dropbox.com/sh/peeta5amzcqb46x/AAADCmKJynJpfsEv-YtinpJGa?dl=0
 
 My First Game made with Unity! I had a lot of fun making it and learned alot too. Make sure to set the audio using the Audio Slider (ESC -> 'Audio') and enjoy :D
 
