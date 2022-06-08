@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour
         {
             music.volume = 0.3f;
         }
+
         music.volume = PlayerPrefs.GetFloat("volume");
         musicSlider.value = music.volume;
 
