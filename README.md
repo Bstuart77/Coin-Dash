@@ -7,4 +7,4 @@ My first game made with Unity! I had a lot of fun making it and learned alot too
 
 ![game](https://user-images.githubusercontent.com/42984201/113255251-986d1480-9295-11eb-9bbc-dda74f5d0122.PNG)
 
-[Demo] (https://www.youtube.com/watch?v=QoWxTPTkNL8)
+(https://www.youtube.com/watch?v=QoWxTPTkNL8)
